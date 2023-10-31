@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar
+{
+	background-color: #333;
+	color: #FFFFFF;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.navbar li
+{
+	padding: 0;
+	text-align: center;
+}
+
+.navbar a
+{
+	font-family: Arial, sans serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.navbar a:hover
+{
+	background-color: #C0958C;
+		color: #333;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.round-image
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 10px auto;
+	border: 3px solid #000;
+	float: right;
+
+		
+}
+p
+{
+	font-family: "Monotype Corsive", cursive;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	color: #333;
+}
+h1
+{
+	color: #333;
+	text-shadow: 2px, 2px, 4px, rgba(0,0,0,0.5);
+	letter-spacing: 1px;
+}
+
+body.index
+{
+	background-color: #E6D1C5;
+}
+body.education
+{
+	background-color: #A7D8E3;
+}
+body.experience
+{
+	background-color: #FED09F;
+}
